@@ -1,4 +1,4 @@
-Participate in the challenge posted on the Kaggle website: 
+Participated in the challenge posted on the Kaggle website: 
 
 https://www.kaggle.com/t/8eb0297b533c4acd9f34c93fc76e71e9
 
