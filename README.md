@@ -1,0 +1,1 @@
+Question: Is there a relationship between unemployment and GDP that suggests increases in unemployment lead to an approximately 2% loss of GDP, as described by “Okun’s Law? " Can we test this theory by examining the relationship between unemployment and real GDP growth in Pakistan?
