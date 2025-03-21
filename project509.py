@@ -142,7 +142,7 @@ from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras import layers, models
 from tensorflow.keras.callbacks import EarlyStopping
 
-# Load the MobileNetV2 model, pre-trained on ImageNet, excluding the top layers
+# Load the MobileNetV2 model, pre-trained on ImageNet, excluding the top layers of the model 
 base_model = MobileNetV2(weights='imagenet', include_top=False, input_shape=(64, 64, 3))
 base_model.trainable = False  # Freeze base model layers
 
@@ -158,7 +158,7 @@ model = models.Sequential([
 # Compile the model
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-# Summary of the model
+# Summarize of the model
 model.summary()
 
 # Early stopping to halt training if validation loss doesn't improve
@@ -180,7 +180,7 @@ loss    = history.history['loss']
 val_loss= history.history['val_loss']
 epochs_range = range(3)  # For 3 epochs
 
-# Plot Accuracy
+# Plot the Accuracy
 plt.figure()
 plt.plot(epochs_range, acc, label='Train Accuracy')
 plt.plot(epochs_range, val_acc, label='Validation Accuracy')
@@ -188,7 +188,7 @@ plt.title('Training & Validation Accuracy')
 plt.legend()
 plt.show()
 
-# Plot Loss
+# Plot the  Loss
 plt.figure()
 plt.plot(epochs_range, loss, label='Train Loss')
 plt.plot(epochs_range, val_loss, label='Validation Loss')
@@ -211,7 +211,7 @@ predicted_class_indices = np.argmax(preds, axis=1)
 
 print("\nFirst 5 predicted class indices:", predicted_class_indices[:5])
 
-# Early stopping to halt training if validation loss doesn't improve
+# Use Early stopping to halt training if validation loss doesn't improve
 early_stopping = EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True)
 
 # Train the model for fewer epochs (1 or 3 to start)
