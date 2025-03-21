@@ -267,4 +267,4 @@ test_generator.reset()
 preds = model.predict(test_generator)
 predicted_class_indices = np.argmax(preds, axis=1)
 
-print("\nFirst 50 predicted class indices:", predicted_class_indices[:50])
+print("\nFirst 30 predicted class indices:", predicted_class_indices[:30])
