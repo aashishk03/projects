@@ -8,6 +8,8 @@ Electric Vehicles in Pakistan: An exploratory analysis of electric vehicle adopt
 
 F-Measure Kaggle Project: Application of F-measure metrics on a Kaggle dataset for performance evaluation.
 
+Graduate Students’ Association Cost-of-Living Survey Analysis - Capstone
+
 K-Means Kaggle Project: Implementation of the K-Means clustering algorithm on Kaggle data.
 
 Okun's Law Project: A study on Okun's Law and its implications using economic datasets.
