@@ -10,6 +10,8 @@ F-Measure Kaggle Project: Application of F-measure metrics on a Kaggle dataset f
 
 Graduate Students’ Association Cost-of-Living Survey Analysis - Capstone
 
+Impact of Rabies in Developing Countries
+
 K-Means Kaggle Project: Implementation of the K-Means clustering algorithm on Kaggle data.
 
 Okun's Law Project: A study on Okun's Law and its implications using economic datasets.
